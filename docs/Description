@@ -1,21 +1,18 @@
 The WildGuard system uses the Infineon PSoC™ 6 AI Evaluation Kit (CY8CKIT-062S2-AI) as its core hardware, with all sensors (MEMS microphone IM72D128, IMU Bosch BMI-270/BMM-350, barometric pressure sensor DPS368, and Wi-Fi/BLE module Murata LBEE5KL1YN) integrated on the board, requiring no external sensor connections. Power is supplied by a 3.7V LiPo battery (1000mAh) connected to the kit’s VIN (5V-tolerant) and GND pins via a TP4056 charger module for remote operation. A USB-C cable connects the kit to a Windows PC for initial programming and firmware updates. The schematic is minimal, as the PSoC™ 6 AI Kit’s onboard components handle all data collection and processing, with the battery and charger ensuring field deployment.
 
-Components
-PSoC™ 6 AI Evaluation Kit (CY8CKIT-062S2-AI): Core board with MCU, sensors, and connectivity.
-3.7V LiPo Battery (1000mAh): Power source for remote operation.
-TP4056 Charger Module: Manages battery charging via USB-C.
-Connecting Wires: 22–26 AWG wires for power connections.
-USB-C Cable: For programming and firmware updates.
+>> Components 
+1. PSoC™ 6 AI Evaluation Kit (CY8CKIT-062S2-AI): Core board with MCU, sensors, and connectivity.
+2. 3.7V LiPo Battery (1000mAh): Power source for remote operation.
+3. TP4056 Charger Module: Manages battery charging via USB-C.
+4. Connecting Wires: 22–26 AWG wires for power connections.
+5. USB-C Cable: For programming and firmware updates.
 
-
-
-Notes
+>> Notes 
 Power Connections: The TP4056 ensures safe battery charging/discharging. The PSoC™ 6 AI Kit’s VIN pin accepts 3.3V–5V, compatible with the 3.7V LiPo.
 Onboard Sensors: All sensors are pre-integrated, requiring no additional wiring.
 Programming: The USB-C cable connects to a Windows PC for flashing firmware via ModusToolbox™ Programmer.
-References: See the PSoC™ 6 AI Kit User Guide (infineon.com) for pinout details and power requirements.
+References: Refer the PSoC™ 6 AI Kit User Guide attached for pinout details and power requirements.
 
-Future Improvements
-Add a switch between the battery and TP4056 for power control.
-Include a solar panel (e.g., 5V 200mA) for sustainable charging, wired to the TP4056 input.
-
+Future Improvements :
+1. Add a switch between the battery and TP4056 for power control.
+2. Include a solar panel (e.g., 5V 200mA) for sustainable charging, wired to the TP4056 input.
