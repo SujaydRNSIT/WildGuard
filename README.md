@@ -8,15 +8,20 @@ WildGuard is an edge AI system to combat wildlife poaching, built for the Hackst
 Over 100,000 elephants 🐘 were poached in Africa between 2010 and 2012, highlighting the urgent need for affordable monitoring systems. Traditional solutions like satellites 🛰️ or drones 🚁 are costly and impractical for vast reserves. WildGuard uses edge AI ⚙️ to deliver real-time, low-latency detection, empowering conservationists with a scalable tool to safeguard biodiversity 🌱.
 
 # 🔍Features
-🔊Sound Detection: Identifies gunshots/vehicle sounds using the DEEPCRAFT™ Siren Detection Ready Model.
+# 🔊Sound Detection: 
+Identifies gunshots/vehicle sounds using the DEEPCRAFT™ Siren Detection Ready Model.
 
-🧭Movement Tracking: Detects intruder movements via the onboard IMU (accelerometer, gyroscope, magnetometer).
+# 🧭Movement Tracking: 
+Detects intruder movements via the onboard IMU (accelerometer, gyroscope, magnetometer).
 
-🌡️Environmental Monitoring: Tracks changes using the barometric pressure sensor.
+# 🌡️Environmental Monitoring: 
+Tracks changes using the barometric pressure sensor.
 
-⚠️Real-Time Alerts: Sends notifications to rangers via Wi-Fi/BLE using Avnet IoTConnect libraries.
+# ⚠️Real-Time Alerts: 
+Sends notifications to rangers via Wi-Fi/BLE using Avnet IoTConnect libraries.
 
-🔋Low-Power Design: Powered by a 3.7V LiPo battery for remote deployment.
+# 🔋Low-Power Design: 
+Powered by a 3.7V LiPo battery for remote deployment.
 
 # 🧾Bill of Materials
 # 🔌Hardware:
@@ -34,19 +39,20 @@ Over 100,000 elephants 🐘 were poached in Africa between 2010 and 2012, highli
 
 
 # 💻Software:
-🧠 DEEPCRAFT™ Studio (Windows) 
-🔗 imagimob.com/studio
+🧠 DEEPCRAFT™ Studio (Windows)
+🔗 [imagimob.com/studio](https://www.imagimob.com/studio)
 
 🧰 ModusToolbox™ v3.4 
-🔗 infineon.com/modustoolbox
+🔗 [infineon.com/modustoolbox](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/)
 
 🚨 DEEPCRAFT™ Siren Detection Ready Model 
+🔗 [infineon.com/deepcraft-ready-model-for-siren-detection](https://www.infineon.com/cms/en/product/gated-document/deepcraft-ready-model-for-siren-detection-product-brief-from-imagimob-8ac78c8c93dda25b0194abad03e03494/)
 
 🌐 Avnet IoTConnect Libraries 
-🔗 github.com/avnet-iotconnect
+🔗 [github.com/avnet-iotconnect](https://github.com/avnet-iotconnect)
 
 🎵 Royalty-Free Audio Files (CC0) 
-🔗 freesound.org
+🔗 [freesound.org](https://freesound.org/search/?q=FOREST+GUNSHOTS&f=&s=Automatic+by+relevance&si_tags=0&si_name=0&si_description=0&si_packname=0&si_sound_id=0&si_username=0&d0=0&d1=*&ig=0&r=0&g=1&dp=0&cm=0&mm=0)
 
 # ⚙️Setup Instructions
 # 🔧Hardware Setup:
@@ -90,7 +96,7 @@ WildGuard processes audio from the MEMS microphone using the DEEPCRAFT™ Siren 
 
 📁/docs: Documentation (setup guide, schematics).
 
-📁/assets: Images (kit photo, DEEPCRAFT™ Studio screenshot).
+📁/assets: Images
 
 📁/tests: Test audio files (optional).
 
@@ -116,14 +122,25 @@ WildGuard processes audio from the MEMS microphone using the DEEPCRAFT™ Siren 
 
 
 # 📚Resources
-🔗Code: ModusToolbox™ project files (this repository).
+# 🔗Code:
+ModusToolbox™ project files (this repository).
 
-📦Model: DEEPCRAFT™ Siren Detection Ready Model (imagimob.com/studio).
+# 📦Model: 
+DEEPCRAFT™ Siren Detection Ready Model 
+🔗 [infineon.com/deepcraft-ready-model-for-siren-detection](https://www.infineon.com/cms/en/product/gated-document/deepcraft-ready-model-for-siren-detection-product-brief-from-imagimob-8ac78c8c93dda25b0194abad03e03494/)
 
-📽️Tutorials:
-“Using DEEPCRAFT Ready Models in ModusToolbox” (hackster.io).
 
-“Updating the PSoC™ 6 AI Eval Kit Firmware” (infineon.com).
+# 📽️Tutorials:
+
+1. Using DEEPCRAFT Ready Models in ModusToolbox (hackster.io).
+
+https://www.hackster.io/clark-jarvis/using-deepcraft-ready-models-in-modustoolbox-4a054e
+
+
+2. Updating the PSoC™ 6 AI Eval Kit Firmware (infineon.com).
+
+https://www.hackster.io/clark-jarvis/updating-the-psoc-6-ai-eval-kit-streaming-protocol-firmware-b027b1
+
 
 🌐Community: Infineon Developer Community (community.infineon.com).
 
