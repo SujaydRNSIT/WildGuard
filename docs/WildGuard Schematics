@@ -1,0 +1,18 @@
+[3.7V LiPo Battery (1000mAh)]
+    + (Positive) ----> [TP4056 Charger Module OUT+]
+    - (Negative) ----> [TP4056 Charger Module OUT-]
+    
+[TP4056 Charger Module]
+    OUT+ ----> [PSoC™ 6 AI Kit VIN (5V-tolerant)]
+    OUT- ----> [PSoC™ 6 AI Kit GND]
+    USB-C Input <---- [USB-C Cable for Charging]
+
+[PSoC™ 6 AI Evaluation Kit (CY8CKIT-062S2-AI)]
+    VIN: Receives 3.7V from TP4056
+    GND: Ground connection
+    Onboard Sensors:
+        - MEMS Microphone (IM72D128): Audio input for sound detection
+        - IMU (Bosch BMI-270/BMM-350): Movement detection
+        - Barometric Pressure Sensor (DPS368): Environmental monitoring
+        - Wi-Fi/BLE Module (Murata LBEE5KL1YN): Alert transmission
+    USB-C Port <---- [USB-C Cable for Programming/Debugging]
