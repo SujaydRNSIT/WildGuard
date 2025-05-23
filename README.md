@@ -17,11 +17,11 @@ Detects intruder movements via the onboard IMU (accelerometer, gyroscope, magnet
 # 🌡️Environmental Monitoring: 
 Tracks changes using the barometric pressure sensor.
 
-# ⚠️Real-Time Alerts: 
-Sends notifications to rangers via Wi-Fi/BLE using Avnet IoTConnect libraries.
+# ⚠️Real-Time Alerts: Sends notifications to rangers via Wi-Fi/BLE using Avnet IoTConnect libraries.
 
 # 🔋Low-Power Design: 
 Powered by a 3.7V LiPo battery for remote deployment.
+
 
 # 🧾Bill of Materials
 # 🔌Hardware:
