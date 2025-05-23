@@ -16,3 +16,5 @@
         - Barometric Pressure Sensor (DPS368): Environmental monitoring
         - Wi-Fi/BLE Module (Murata LBEE5KL1YN): Alert transmission
     USB-C Port <---- [USB-C Cable for Programming/Debugging]
+
+![WildGaurd_Circuit_Diagram](assets/WildGaurd_Circuit_Diagram.png)
